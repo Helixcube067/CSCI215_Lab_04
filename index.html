@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Calculator </title>
+<meta charset="utf-8">
+<link href="styles.css" rel="stylesheet">
+<script src ="compute.js"></script>
+</head>
+<body>
+    <div id="calc">
+        
+                <p class="headerText"> US Dollar Currency Conversion </p>
+        
+            
+                <label>US Dollars:</label><input type="text" name="dollars"><br>
+                <label>Currency:</label>
+                    <select id="currency">
+                        <option value="0.61" selected="selected">British Pound</option>
+                        <option value="0.74">Euro</option>
+                        <option value="11.73">Estonian Kroon</option>
+                        <option value="1.11">Canadian Dollar</option>
+                        <option value="6.06">Chinese Yuan</option>
+                    </select>
+                <br>
+                <label>Exchange:</label><input type="text" name="exchange"><br>
+                <label></label><input type="button" onclick="convert()" value="Convert"><br>
+        
+                    <div id="bill_img"></div>
+            
+        </div>
+<footer></footer>
+</body>
+</html>
